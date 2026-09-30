@@ -1,0 +1,80 @@
+
+body{
+    height: 100vh;
+    background-image: url();
+    font-family: 'Poppins', sans-serif; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.login{
+    font-weight: 600;
+}
+
+.maior{
+    max-width: 600px;
+    backdrop-filter:  blur(7px);
+    border-radius: 37px;
+    padding: 30px;
+    border: 1px, solid rgba(233, 233, 233, 0.3);
+    background-color: rgb(255, 255, 255, 0.3); 
+}
+
+
+.menor{
+    background-color: rgba(199, 199, 199, 0.4);
+    border-radius: 15px;
+    backdrop-filter: blur(7px);
+}
+
+.titulo{
+    background-image: linear-gradient(45deg, rgb(140, 140, 140), rgb(255, 255, 255));
+    border-radius: 40px;
+}
+
+.form-control{
+    border-radius: 26px;
+    border: none;
+    background-color: rgba(131, 126, 126, 0.562);
+    transition: all 0.3s ease-in-out;
+    outline: none;
+}
+
+.form-control:hover{
+    background-color: rgba(138, 138, 138, 0.4);
+    box-shadow: 0px 0px 9px white;
+}
+
+.form-control:focus{
+    background-color: rgba(129, 142, 142, 0.4);
+    color: white;
+}
+
+label{
+    font-size: larger;
+    font-weight:440;
+}
+
+.by{
+    border-radius: 30px;
+    background-color: black;
+    border: none;
+    transition:  all 0.3s ease-in-out;
+}
+
+.by:hover{
+    scale: 1.07;
+    background-color: rgba(47, 51, 51, 0.4);
+    color: aliceblue;
+}
+
+::-webkit-input-placeholder{
+    color: rgba(0, 0, 0, 0.6);
+}

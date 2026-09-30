@@ -1,0 +1,97 @@
+body{
+    background-image: url(./coracao3.png);
+    height: 120vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif; 
+}
+
+.container{
+    max-width: 850px;
+    border-radius: 67px;
+    padding: 30px;
+    border: 1px, solid rgba(233, 233, 233, 0.3);
+    backdrop-filter: blur(7px);
+    background-color: rgb(255, 255, 255, 0.3); 
+}
+.card-box{
+    background-color: rgba(240, 248, 255, 0.5);
+    border-radius: 40px;
+    backdrop-filter: blur(7px);
+}
+
+.titulo{
+    background-color: rgba(123, 124, 124, 0.205);
+    border: 1px, solid rgba(255, 255, 255, 0.3);
+    border-radius: 40px;
+    box-shadow: 0px 0px 30px hsl(0, 0%, 0%, 0.3);
+}
+
+.tp{
+    font-weight: 600;
+}
+
+.form-control{
+    padding: 10px;
+    border-radius: 26px;
+    border: none;
+    background-color: rgba(207, 211, 211, 0.562);
+    transition: all 0.3s ease-in-out;
+    outline: none;
+}
+
+.form-select{
+    border-radius: 26px;
+    border: none;
+    background-color: rgba(202, 204, 204, 0.562);
+    transition: all 0.3s ease-in-out;
+    outline: none;
+    padding: 10px;
+}
+
+.form-control:hover{
+    background-color: rgba(61, 70, 70, 0.4);
+}
+
+.form-control:focus{
+    background-color: rgba(93, 95, 95, 0.562);
+    color: white;
+}
+.form-select:hover{
+    background-color: rgba(69, 70, 70, 0.4);
+}
+
+.form-select:focus{
+    background-color: rgba(104, 105, 105, 0.562);
+    color: white;
+}
+
+.by{
+    border-radius: 30px;
+    background-color: black;
+    border: none;
+    transition:  all 0.3s ease-in-out;
+    color: aliceblue;
+}
+
+.by:hover{
+    scale: 1.07;
+    background-color: rgb(85, 85, 87);
+    color: aliceblue;
+}
+
+::-webkit-input-placeholder{
+    color: rgba(0, 0, 0, 0.6);
+}
+
+label{
+    font-size: larger;
+    font-weight:440;
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bold;
+}
